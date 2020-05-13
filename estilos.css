@@ -1,0 +1,44 @@
+body {
+    background-image: url('https://i.imgur.com/OqH4GUk.jpg');
+    background-size: 100vw 100vh;
+    color: black;
+    font-family:arial;
+    height: 90vh;
+    width:95vw      
+  }
+  
+  .menu{
+    background-color: rgb(0,0,0,0.5);
+    color: #FFFFFF;  
+  }
+
+  .menu li{
+    list-style: none;
+  }
+
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  a{
+    color:white;
+    text-decoration: none;
+      
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  li:active{
+    font-size:15.4px;
+  }
+  
+  .site-title {
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    text-align:center;
+    font-style: italic;
+  }
